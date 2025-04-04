@@ -17,5 +17,11 @@
     "svelte-check": "^4.1.4",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
+  },
+  "dependencies": {
+    "url-shortener": "file:"
   }
 }
