@@ -1,5 +1,3 @@
 {
-		"recommendations": [
-		"Gesugao-san.general-purpose-extension-pack",
-	]
+  "recommendations": ["svelte.svelte-vscode"]
 }
