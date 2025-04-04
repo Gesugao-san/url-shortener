@@ -2,12 +2,13 @@
   import svelteLogo from '../assets/svelte.svg'
   import viteLogo from '../assets/vite.svg'
   import Counter from '../lib/Counter.svelte'
+  import '../app.css'
+  // import '../app_debug.css'
 </script>
 
 <svelte:head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
   <!-- <link rel="icon" href="%sveltekit.assets%/favicon.png" /> -->
   <link rel="icon" href="{svelteLogo}" />
 </svelte:head>
@@ -34,8 +35,6 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
-
-  <script type="module" src="/src/main.ts"></script>
 </main>
 
 <style>
