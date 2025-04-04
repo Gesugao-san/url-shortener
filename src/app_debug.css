@@ -1,0 +1,51 @@
+/* body { border: 1px solid red; } */
+/* #app { border: 1px solid blue; } */
+
+
+/* Отладочные рамки для всех элементов */
+:root {
+  border: 2px solid purple !important;
+}
+
+html {
+  border: 2px solid orange !important;
+}
+
+body {
+  border: 2px solid red !important;
+}
+
+#app {
+  border: 2px solid blue !important;
+}
+
+main {
+  border: 2px solid green !important;
+}
+
+.card {
+  border: 2px solid yellow !important;
+}
+
+div:not(#app):not(.card) {
+  border: 1px dashed cyan !important;
+}
+
+a {
+  border: 1px solid pink !important;
+}
+
+button {
+  border: 2px solid white !important;
+}
+
+.logo {
+  border: 2px solid magenta !important;
+}
+
+/* Для light-темы */
+@media (prefers-color-scheme: light) {
+  :root, html, body, #app, main, .card, div, a, button, .logo {
+    border-color: rgba(0,0,0,0.7) !important;
+  }
+}
